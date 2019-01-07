@@ -3,6 +3,7 @@ class Owner
   
   @@all = []
   @pets = {fishes: [], cats: [], dogs: []}
+  
   def initialize
     
     @@all << self
