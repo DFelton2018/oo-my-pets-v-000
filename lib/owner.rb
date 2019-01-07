@@ -6,7 +6,7 @@ class Owner
   end
   
   def self.all
-    self.pets.all
+    @pets
   end
   
  
