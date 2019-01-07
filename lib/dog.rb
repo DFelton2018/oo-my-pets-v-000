@@ -1,4 +1,5 @@
 class Dog
+  
   attr_accessor :mood
   attr_reader :name
   
@@ -6,4 +7,5 @@ class Dog
     @name = name
     @mood = "nervous"
   end
+  
 end
