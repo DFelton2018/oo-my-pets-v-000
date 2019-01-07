@@ -15,7 +15,7 @@ class Owner
   end
   
   def self.count
-    @@all.count
+    @@all.count.clear!
   end
   
   def say_species
