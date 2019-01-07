@@ -4,8 +4,8 @@ class Cat
   attr_writer :name
   
   def initialize(name, mood)
-    @name = name
-    @mood = mood
+    @name = Self.name
+    @mood = Self.mood
   end
   
 end
