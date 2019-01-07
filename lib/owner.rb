@@ -18,6 +18,8 @@ class Owner
     @@all.count
   end
   
+  def say_species
+  
  
     
   
