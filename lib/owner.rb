@@ -50,7 +50,7 @@ class Owner
   end
   
   def sell_pets
-    pets.each{|pet|pet.each.mood = "nervous"}
+    pets.map{|pet|pet.each.mood = "nervous"}
   end
   
 end
